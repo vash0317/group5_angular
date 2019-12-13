@@ -1,8 +1,10 @@
 <div class="root">
-  <ul>
-    <li><a [routerLink]="['/']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">Home</a></li>
-    <li><a [routerLink]="['/login']" routerLinkActive="active">Login</a></li>
-    <li><a [routerLink]="['/register']" routerLinkActive="active">Registration</a></li>
-  </ul>
+  <div class="header">
+    <ul>
+      <li><a [routerLink]="['/']" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active">Home</a></li>
+      <li><a [routerLink]="['/login']" routerLinkActive="active">Login</a></li>
+      <li><a [routerLink]="['/register']" routerLinkActive="active">Registration</a></li>
+    </ul>
+  </div>
   <router-outlet></router-outlet>
 </div>

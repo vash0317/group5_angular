@@ -2,9 +2,18 @@
 
 }
 
-a {
+.header {
+  width: 100%;
+  border: 1px solid;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
 
-  &.active {
-    color: red;
+    a {
+      display: inline-block;
+      padding: 1rem
+    }
   }
 }
